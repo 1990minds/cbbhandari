@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
+ 
+ .activegatsby{
+
+    color:rgb(235, 235, 235) !important;
+    background-color: var(--AccentColor2);
+    padding: 41px 15px !important;
+    text-align: center;
+    
+} 
+
+
+.lik{
+
+    padding: 41px 15px;
+    margin: 0px 0px;
+    transition: 0.2s ease-in-out;
+    font-family: 'Big Shoulders Text', cursive;
+    font-weight: 400;
+    color:var(--AccentColor3)
+
+}
+
+
+.lik:hover{
+
+    text-decoration: none !important;
+    background-color: var(--AccentColor3);
+    color:white;
+
+}
+
+
+
+.lik > .activegatsby{
+    color:rgb(235, 235, 235) !important;
+    background-color: var(--AccentColor2);
+    padding: 10px 25px !important;
+    text-align: left;
+    margin-top:0px !important;
+
+}
+
+.about .activegatsby{
+
+
+    color:rgb(235, 235, 235) !important;
+    background-color: var(--AccentColor2);
+    padding: 10px 25px !important;
+    text-align: left;
+    margin-top:0px !important;
+
+
+}
+.academic .activegatsby, .support .activegatsby, .campuslife .activegatsby {
+
+    color:rgb(235, 235, 235) !important;
+    background-color: var(--AccentColor2);
+    padding: 4px 20px !important;
+    text-align: left;
+    margin-top:0px !important;
+}
+
+
+
+.nav-link a{
+
+    padding: 44px 15px;
+    transition: 0.2s ease-in-out;
+    color:rgb(110, 110, 110);
+    text-align: center;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.nav-link a:hover{
+    text-decoration: none !important;
+    background-color: var(--AccentColor2);
+    color:white;
+    
+}
+
+.dropdown-menu.show {
+    display: block;
+    width: max-content;
+
+}
+
+.navbar-nav .show>.nav-link {
+    text-decoration: none !important;
+    background-color: var(--AccentColor2);
+
+
+
+}
+
+.navbar-nav .show>.nav-link a{
+ 
+
+    transition: 0.2s ease-in-out;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(247, 245, 245, 1);
+    text-decoration: none !important;
+    background-color: var(--AccentColor2);
+    padding: 41px 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar-light .navbar-nav .dropdown-toggle{
+    padding: 41px 15px;
+    margin: 0px 0px;
+    transition: 0.2s ease-in-out;
+    font-family: 'Big Shoulders Text', cursive;
+    font-weight: 400;
+    color:var(--AccentColor3)
+
+
+}
+.navbar-light .navbar-nav .dropdown-toggle:hover{
+
+    text-decoration: none !important;
+    background-color: var(--AccentColor3);
+    color:white;
+
+
+
+}
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #133c66;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-family: 'Big Shoulders Text', cursive;
+    
+}
+
+
+.imgcontent{
+
+    position: relative;
+    
+}
+.imgcontent .textcontent{
+    overflow: hidden;
+    position: absolute;
+    content:"";
+    z-index: 22;
+    width:100%;
+    height: 100%;
+    color:white;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background: linear-gradient(0deg, rgba(48,48,48,0.9808298319327731) 0%, rgba(203,203,204,0) 54%);
+}
+
+.imgcontent .textcontent h3{
+
+    margin-top:130%;
+    font-size:18px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.imgcontent .textcontent:hover  h3{
+
+    margin-top:100%;
+    font-weight: bold;
+
+}
+
+
+
+
+@media(max-width:1600px){
+
+
+    .support .dropdown-menu.show{
+        clip-path:polygon(0% 5%, 80% 5%, 82% 0, 84% 5%, 100% 5%, 100% 100%, 0 100%);
+
+        padding-top:20px;
+        margin-left:-870px;
+        
+    }
+
+    .academic .dropdown-menu.show{
+
+        clip-path: polygon(0% 5%, 79% 5%, 82% 0, 85% 5%, 100% 5%, 100% 100%, 0 100%);
+        padding-top:20px;
+        margin-left:-690px;
+        }
+
+      
+
+    .campuslife .dropdown-menu.show{
+
+        clip-path:polygon(0% 5%, 80% 5%, 82% 0, 84% 5%, 100% 5%, 100% 100%, 0 100%);
+        padding-top:20px;
+
+        margin-left:-920px;   
+    
+    }
+}
+
+@media(min-width:1600px){
+
+
+    .support .dropdown-menu.show{
+        clip-path:polygon(0% 5%, 80% 5%, 82% 0, 84% 5%, 100% 5%, 100% 100%, 0 100%);
+
+        padding-top:20px;
+        margin-left:-870px;
+        
+    }
+
+    .academic .dropdown-menu.show{
+        clip-path: polygon(0% 5%, 79% 5%, 82% 0, 85% 5%, 100% 5%, 100% 100%, 0 100%);
+        padding-top:20px;
+
+        margin-left:-690px;
+    }
+
+    .campuslife .dropdown-menu.show{
+
+
+        clip-path:polygon(0% 5%, 80% 5%, 82% 0, 84% 5%, 100% 5%, 100% 100%, 0 100%);
+
+padding-top:20px;
+        margin-left:-900px;
+    }
+
+    .support h4 svg , .campuslife h4 svg{
+
+     color:var(--AccentColor3) ;
+    }
+}
+
+
+.support h4 , .campuslife h4 {
+color:rgb(35, 74, 110);
+margin: 0;
+font-family: 'Big Shoulders Text', cursive;
+width:100%;
+display: inline-block;
+background-color: rgb(241, 241, 241);
+
+
+
+}
+
+.support h4 span, .campuslife  h4 span{
+
+    color: rgba(165, 45, 24, 0.822);
+    margin-left:10px;
+    font-weight: bold;
+}
+
+
+.academic  h4 {
+    color:rgb(35, 74, 110);
+    margin: 0;
+    font-family: 'Big Shoulders Text', cursive;
+    width:100%;
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    
+    
+    
+    }
+    
+    .academic  h4 span{
+    
+        color: rgba(165, 45, 24, 0.822);
+        margin-left:10px;
+        font-weight: bold;
+    }
+
+
+/*Mobile View */
+
+
+
+
+
+@media(max-width:960px){
+
+
+    .activegatsby{
+
+        color:rgb(235, 235, 235) !important;
+        background-color: var(--AccentColor2);
+        padding: 4px 15px !important;
+        text-align: center;
+        margin-top:50px !important;
+        
+    } 
+
+
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+   
+        padding: 10px 35px;
+      
+    }
+    
+    .navbar-light .navbar-nav .dropdown-toggle{
+        padding: 10px 35px;
+  
+    }
+
+
+    .nav-link a{
+
+        padding: 10px 35px;
+        margin-top:0 !important;
+      
+    }
+
+    .imgcontainer{
+
+        display:none;
+    }
+
+    .academic .dropdown-menu.show{
+        clip-path: none;
+width:100%;
+        margin-left:0px;
+        padding-top: 0;
+    }
+
+    .support .dropdown-menu.show{
+        clip-path: none;
+
+        padding-top:0px;
+        margin-left:0px;
+        
+    }
+
+    .campuslife .dropdown-menu.show{
+
+        padding-top: 10px;
+
+        clip-path: none;
+width:100%;
+margin-left:0px;
+    }
+}
