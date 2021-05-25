@@ -37,7 +37,7 @@ class TopNavbar extends Component {
     
     
  <marquee width="100%" className="p-0" direction="left" >
-CB bhandari jain college Event information will be update shortly...
+ <h4 className="text-danger m-0">Admissions for all Degree Courses are open for the year 2021 - 2022.</h4>
 </marquee>
     
     

@@ -38,7 +38,7 @@ const ModalPopup = Loadable({
 const IndexPage = () => (
   <Layout   >
     <SEO title="Home" />
-    <ModalPopup/>
+    {/* <ModalPopup/> */}
 
     <ParallaxProvider>
   <HomeLayout/>

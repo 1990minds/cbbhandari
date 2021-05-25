@@ -1,6 +1,8 @@
 import React from 'react';
 import {Card, ListGroup } from 'react-bootstrap'
 import {Heading, Text} from '../../utils/heading'
+import collegeimg from '../../../images/layouts/home/bhandari-building.png'
+import newblinkimg from '../../../images/layouts/home/new_blink_gif.gif'
 
 const AdmisionSec = () => {
     return (
@@ -10,9 +12,39 @@ const AdmisionSec = () => {
 <div className="row">
     <div className="col-sm-12">
 
+
+    <div className="row mb-4">
+
+<div className="col-sm-3">
+    <img src={collegeimg} alt="college" width="100%" />
+</div>
+
+<div className="col-sm-9">
+
+<div className="card">
+<div className="card-header">
+<b>Admissions for all Degree Courses are open for the year 2021 - 2022.</b><img src={newblinkimg} width="70px" alt="new"/>
+</div>
+<div className="card-body">
+ <h5>Mr.Girish</h5>
+<p className="card-text">Admissions Coordinator</p>
+
+<h6>Phone: 9945881526 | 8026611924</h6>
+<h6>Email: <a  href="mailto: cbbhandarijaincollege@gmail.com">cbbhandarijaincollege@gmail.com </a></h6>
+<h6><b>contact:</b> (Timing - 10.00 AM to 5.00 PM for all the days)</h6>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+
     <Heading className="mt-3" fontsize="24px" title="RULES AND REGULATIONS FOR ADMISSION"/>
 <hr className="mb-3" style={{border:"none", height:"2px", margin:"0", backgroundColor:"#0073AD", width:"10%"}}/>
 
+   
 
     <Card style={{ width: '100%' }}>
   <ListGroup variant="flush">
