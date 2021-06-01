@@ -62,6 +62,7 @@ export default class MyForm extends React.Component {
 </div> :    <Button variant="primary" disabled={loading? false : true} type="submit">
         {loading === true ? "Submit": "Sending..."}
       </Button>}
+      
     </Form>
 
     );
