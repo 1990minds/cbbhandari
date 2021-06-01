@@ -19,7 +19,6 @@ state = {
        CFphotos,
       Zest:Zestphotos
   
-
 }
 
 

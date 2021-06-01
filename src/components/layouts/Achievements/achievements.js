@@ -46,9 +46,9 @@ year 2017 <br/>`
                       <div className="row py-5 ">
 
                           <div className="col-sm-12">
-<Heading className="ahead" title="Bangalore University Rank Holders and Gold Medalist"/>
-<hr/>
-<Text text={<Interweave content={achieve} />}/>    
+            <Heading className="ahead" title="Bangalore University Rank Holders and Gold Medalist"/>
+            <hr/>
+            <Text text={<Interweave content={achieve} />}/>    
 
                           </div>
                           <div className="col-sm-6 p-sm-3">
