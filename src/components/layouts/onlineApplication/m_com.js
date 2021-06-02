@@ -3,7 +3,7 @@ import {Heading, Text} from '../../utils/heading';
 import styled from 'styled-components'
 import {  Form, Button , Card, ListGroup} from 'react-bootstrap';
 
-export default class Pu extends React.Component {
+export default class Mcom extends React.Component {
 
     constructor(props) {
         super(props);
@@ -156,13 +156,13 @@ export default class Pu extends React.Component {
 
                     <div className="col-sm-6">
                          <Form.Group controlId="exampleForm.ControlTextarea1">
-                         <Form.Control as="textarea" name="Permanent Address" placeholder="Permanent Address" rows="3" />
+                         <Form.Control as="textarea" name="Permanent Address" placeholder="Permanent Address" rows="3" required/>
                     </Form.Group>
                     </div>
 
                     <div className="col-sm-6">
                          <Form.Group controlId="exampleForm.ControlTextarea1">
-                         <Form.Control as="textarea" name="Communication Address" placeholder="Communication Address" rows="3" />
+                         <Form.Control as="textarea" name="Communication Address" placeholder="Communication Address" rows="3" required/>
                     </Form.Group>
                     </div>
                                   
@@ -216,14 +216,14 @@ export default class Pu extends React.Component {
                     <div className="col-sm-6">
                         <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Control as="textarea" name="Name of the Class" 
-                        placeholder="Name of the Class / College / Address qualifying examination last studied" rows="3" />
+                        placeholder="Name of the Class / College / Address qualifying examination last studied" rows="3" required/>
                     </Form.Group>
                     </div>
 
                     <div className="col-sm-6">
                         <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Control as="textarea" name="Name of the board" 
-                        placeholder="Name of the board / University last studied" rows="3" />
+                        placeholder="Name of the board / University last studied" rows="3" required/>
                     </Form.Group>
                     </div>
                                             
@@ -266,11 +266,10 @@ export default class Pu extends React.Component {
                                         
                 </div>
 
-                {/* <p className="mt-3">Details of the marks obtained in all the optional subjects in qualifying Degree Examination</p> */}
 
    <Heading className="ahead mt-5 mb-4" title="Documents Check List"/> 
 
-                <div className="row px-3">   
+                <div className="row px-3 text">   
                        
                        <div className="col-sm-12 pb-3">
                        <Form.Check custom type="checkbox"  id="1" name="SSLC Marks Card" label="SSLC Marks Card" />
@@ -310,7 +309,7 @@ export default class Pu extends React.Component {
 
                        <div className="col-sm-4 ">
                        <Form.Group controlId="formBasicPassword">
-                                <Form.Control type="text" size="sm" name="Specified Certificate" placeholder="Specify" required  />
+                                <Form.Control type="text" size="sm" name="Specified Certificate" placeholder="Specify"  />
                        </Form.Group>  
                        </div>
 
@@ -357,6 +356,15 @@ export default class Pu extends React.Component {
             </ListGroup>
             </Card>
 
+            {/* <div className="mt-4"> 
+    <Form.Group>
+        <Form.Check  custom type="checkbox" required label="I have read the rules and regulations specified in the prospectus for my admission to this institution
+                                                and will strictly adhere to the same. I promise to abide by the dicisions taken by the authorities." 
+             feedback="You must agree before submitting."
+        />
+      </Form.Group>
+      </div> */}
+      
           {status === "SUCCESS" ? <div class="alert alert-success mt-5" role="alert">
            Your Mail Sent!
                  </div> :<div  className="mt-5 mb-5" style={{textAlign:'center'}}> <Button variant="primary" disabled={loading? false : true} type="submit">
@@ -407,5 +415,8 @@ const AWrap = styled.div`
     border-radius: 7px;
 }
 
+.text{
+  // color: #6C757D;
+}
 
 `
