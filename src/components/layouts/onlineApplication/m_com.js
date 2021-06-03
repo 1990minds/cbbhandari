@@ -66,7 +66,7 @@ export default class Mcom extends React.Component {
             <div className="row"> 
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="DOB" placeholder="Date of Birth" required />
+                        <Form.Control type="text" name="DOB" placeholder="Date of Birth (dd/mm/yyyy)" required />
                     </Form.Group>
                     </div>
 
@@ -91,7 +91,7 @@ export default class Mcom extends React.Component {
 
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="Aadhaar No" placeholder="Aadhaar No" required />
+                        <Form.Control type="text" name="Aadhaar No" maxlength="12" pattern="[0-9]{12}" title="12 digits number" placeholder="Aadhaar No" required />
                     </Form.Group>
                     </div>
             </div>
@@ -189,19 +189,19 @@ export default class Mcom extends React.Component {
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="Mobile No." placeholder="Mobile No." required  />
+                        <Form.Control type="text" name="Mobile No." maxlength="10" pattern="[0-9]{10}" title="10 digits number" placeholder="Mobile No." required  />
                         </Form.Group>
                     </div>
 
                     <div className="col-sm-4">
                     <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="Contact No." placeholder="Contact No." required  />
+                        <Form.Control type="text" name="Contact No." maxlength="10" pattern="[0-9]{10}" title="10 digits number" placeholder="Contact No." required  />
                         </Form.Group>
                     </div>
 
                     <div className="col-sm-4">
                     <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="Parents Mobile No." placeholder="Parents Mobile No." required  />
+                        <Form.Control type="text" name="Parents Mobile No." maxlength="10" pattern="[0-9]{10}" title="10 digits number" placeholder="Parents Mobile No." required  />
                         </Form.Group>
                     </div>
 
@@ -246,19 +246,19 @@ export default class Mcom extends React.Component {
                        
                         <div className="col-sm-4">
                              <Form.Group controlId="formBasicPassword">
-                                <Form.Control type="text" name="Max. Marks" placeholder="Max. Marks" required  />
+                                <Form.Control type="number" name="Max. Marks" placeholder="Max. Marks" required  />
                             </Form.Group>                          
                         </div>
 
                         <div className="col-sm-4">
                               <Form.Group controlId="formBasicPassword">
-                                <Form.Control type="text" name="Marks Obtained" placeholder="Marks Obtained" required  />
+                                <Form.Control type="number" name="Marks Obtained" placeholder="Marks Obtained" required  />
                               </Form.Group> 
                         </div>
 
                         <div className="col-sm-4">
                                 <Form.Group controlId="formBasicPassword">
-                                <Form.Control type="text" name="Percentage" placeholder="Percentage" required  />
+                                <Form.Control type="number" name="Percentage" placeholder="Percentage" required  />
                                 </Form.Group>    
                         </div>
                                         
@@ -278,12 +278,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 1 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 1 Subject 1 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 1 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 1 Subject 1 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -297,12 +297,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 1 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 1 Subject 2 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 1 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 1 Subject 2 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -316,12 +316,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 1 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 1 Subject 3 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 1 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 1 Subject 3 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -337,12 +337,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 2 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 2 Subject 1 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 2 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 2 Subject 1 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -357,12 +357,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 2 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 2 Subject 2 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 2 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 2 Subject 2 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -376,12 +376,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 2 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 2 Subject 3 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 2 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 2 Subject 3 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -398,12 +398,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 3 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 3 Subject 1 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 3 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 3 Subject 1 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -418,12 +418,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 3 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 3 Subject 2 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 3 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 3 Subject 2 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -437,12 +437,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 3 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 3 Subject 3 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 3 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 3 Subject 3 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -458,12 +458,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 4 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 4 Subject 1 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 4 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 4 Subject 1 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -478,12 +478,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 4 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 4 Subject 2 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 4 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 4 Subject 2 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -497,12 +497,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 4 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 4 Subject 3 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 4 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 4 Subject 3 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -518,12 +518,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 5 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 5 Subject 1 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 5 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 5 Subject 1 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -538,12 +538,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 5 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 5 Subject 2 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 5 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 5 Subject 2 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -557,12 +557,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 5 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 5 Subject 3 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 5 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 5 Subject 3 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -578,12 +578,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 6 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 6 Subject 1 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 6 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 6 Subject 1 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -598,12 +598,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 6 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 6 Subject 2 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 6 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 6 Subject 2 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -617,12 +617,12 @@ export default class Mcom extends React.Component {
                   </div>  
                   <div className="col-sm-3">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 6 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                          <Form.Control type="number" name="Sem 6 Subject 3 Max. Marks" placeholder="Max. Marks" />
                       </Form.Group>
                   </div> 
                   <div className="col-sm-3    ">
                       <Form.Group controlId="formBasicPassword">
-                          <Form.Control type="text" name="Sem 6 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                          <Form.Control type="number" name="Sem 6 Subject 3 Marks obtained" placeholder="Marks obtained" />
                       </Form.Group>
                   </div> 
 
@@ -635,12 +635,12 @@ export default class Mcom extends React.Component {
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Total Max. Marks" placeholder="Total Max. Marks"required />
+                            <Form.Control type="number" name="Total Max. Marks" placeholder="Total Max. Marks"required />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Total Marks obtained" placeholder="Total Marks obtained" required />
+                            <Form.Control type="number" name="Total Marks obtained" placeholder="Total Marks obtained" required />
                         </Form.Group>
                     </div> 
 
@@ -651,7 +651,7 @@ export default class Mcom extends React.Component {
                     <div className="col-sm-3">  </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="PU Percentage " placeholder="Percentage" required />
+                            <Form.Control type="number" name="Percentage " placeholder="Percentage" required />
                         </Form.Group>
                     </div> 
                   </div>
@@ -758,7 +758,7 @@ export default class Mcom extends React.Component {
       </div> */}
       
           {status === "SUCCESS" ? <div class="alert alert-success mt-5" role="alert">
-           Your Mail Sent!
+          Thank you we will contact you shortly.
                  </div> :<div  className="mt-5 mb-5" style={{textAlign:'center'}}> <Button variant="primary" disabled={loading? false : true} type="submit">
               {loading === true ? "Submit": "Sending..."}
           </Button> </div> }
