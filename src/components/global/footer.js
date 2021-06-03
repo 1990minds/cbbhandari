@@ -31,16 +31,30 @@ eventimg:`${rec3}`
 
 const Footer = () => {
     return (
-        <FooterWrap className=" container-fluid px-0 py-5">
+        <FooterWrap className=" container-fluid px-0 pb-5">
             
+            <div style={{transform:"translateY(-6px)", backgroundColor:'#384e5a'}}  className="  py-3">
+              <div  className="container d-flex justify-content-around align-items-center">
+<h3 className="text-white ">Admissions for all Degree Courses are open for the year 2021 - 2022.</h3>
+<Link to="/online_application">
+        <button style={{fontWeight:"bold", color:"#384E5A"}}  className="mt-1  rounded  border-0 px-3 p-1">
+             
+            APPLAY NOW
+              
+            </button>
+        </Link>     
+              </div>
+            </div>
+
             <div className="container">
+
 
 <div className="row pt-5">
     <div className="col-sm-3">
 
 <h4>Quik Links <FaCaretDown /></h4>
-<hr/>
-<ul>
+<hr className="bg-secondary w-25 ml-0"/>
+<ul className="pl-2">
 
     <li><Link to="/aboutus/faculty-profile/" className="text-secondary" activeStyle={{color:"white"}}>Faculty Profile</Link></li>
     <li><Link to="/aboutus/gallery/" className="text-secondary" activeStyle={{color:"grey"}}>Gallery</Link></li>
@@ -53,7 +67,7 @@ const Footer = () => {
 
     <div className="col-sm-4">
     <h4>Address <MdAddLocation/></h4>
-    <hr/>
+    <hr className="bg-secondary w-25 ml-0"/>
    <p className="text-secondary">#84, K.R. Road, Shankarpuram,<br/>
     Bangalore - 560 004.<br/>
 
@@ -62,7 +76,7 @@ Phone: 080 - 2661 1924</p>
     </div>
     <div className="col-sm-5">
 <h4>Quick Contact <FaEnvelope/></h4>
-<hr/>
+<hr className="bg-secondary w-25 ml-0"/>
 <Form display="none"/>
 
     </div>

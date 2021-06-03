@@ -25,23 +25,18 @@ class TopNavbar extends Component {
 
     </div>
     <div className="col-sm-2.5">
-    <Link to="/"><Nav.Link className=" border-left oicon"><MdPhone className=""/>CallUs:  080 - 2661 1924 </Nav.Link></Link>
+    <Link to="/"><Nav.Link className=" border-left oicon"><MdPhone className=""/> 080 - 2661 1924 </Nav.Link></Link>
 
     </div>
 
     <div className="col-sm-0.5 pt-2  border-left">
-    <span className="bg-danger  mx-2 p-1 text-white">News<FaCaretRight/></span>
+    <span className="bg-danger  mx-2 p-1  text-white">News<FaCaretRight/></span>
     </div>
-    <div className="col-sm-5">
-    <Link to="/"><Nav.Link className="border-right-0 p-0 pt-sm-2 ">
-    
+    <div className="col-sm-3">
     
  <marquee width="100%" className="p-0" direction="left" >
- <h4 className="text-danger m-0">Admissions for all Degree Courses are open for the year 2021 - 2022.</h4>
+ <h5 className="text-danger mt-2 mb-0">Admissions for all Degree Courses are open for the year 2021 - 2022.</h5>
 </marquee>
-    
-    
-    </Nav.Link></Link>
 
     </div>
     <div className="col-sm-0.5 sc">
@@ -49,10 +44,18 @@ class TopNavbar extends Component {
 
     </div>
 
-   {/* <div className="col-sm-0.5">
-    <Link to="/"><Nav.Link id="twitter" className=" border-left"><FaTwitter/></Nav.Link></Link>
+    <div className="col-sm-2 ">
+ 
+      <Link to="/online_application">
+        <button style={{backgroundColor:"#3F307F"}} className="mt-1 rounded text-white border-0 p-1 w-100">
+             
+            APPLAY NOW
+              
+            </button>
+        </Link>
 
     </div>
+    {/*
     <div className="col-sm-0.5">
     <Link to="/"><Nav.Link id="linkedin" className=" border-left"><FaLinkedinIn/></Nav.Link></Link>
 
