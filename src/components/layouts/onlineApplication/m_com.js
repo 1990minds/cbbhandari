@@ -242,9 +242,7 @@ export default class Mcom extends React.Component {
                             </Form.Group>
                         </div>                 
                                         
-                </div>
-
-                <div className="row">   
+               
                        
                         <div className="col-sm-4">
                              <Form.Group controlId="formBasicPassword">
@@ -264,12 +262,406 @@ export default class Mcom extends React.Component {
                                 </Form.Group>    
                         </div>
                                         
+                <p className="mb-3 col-sm-12 mt-3 ">Details of the marks obtained in all the optional subjects in qualifying Degree Examination</p>
                 </div>
+
+            <div class="row ">
+              
+              <div className="col-sm-12 mt-2" >
+              <Form.Label>Sem I / Year</Form.Label>
+              </div>
+
+                  <div className="col-sm-4 ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 1 Subject 1" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 1 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 1 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 1 Subject 2" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 1 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 1 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 1 Subject 3" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 1 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 1 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  <div className="col-sm-12 mt-2" >
+                  <Form.Label>Sem II / Year</Form.Label>
+                 </div>
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 2 Subject 1" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 2 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 2 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 2 Subject 2" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 2 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 2 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 2 Subject 3" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 2 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 2 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+
+                  <div className="col-sm-12 mt-2" >
+                  <Form.Label>Sem III / Year</Form.Label>
+                 </div>
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 3 Subject 1" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 3 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 3 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 3 Subject 2" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 3 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 3 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 3 Subject 3" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 3 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 3 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  <div className="col-sm-12 mt-2" >
+                  <Form.Label>Sem IV / Year</Form.Label>
+                 </div>
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 4 Subject 1" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 4 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 4 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 4 Subject 2" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 4 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 4 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 4 Subject 3" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 4 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 4 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  <div className="col-sm-12 mt-2" >
+                  <Form.Label>Sem V / Year</Form.Label>
+                 </div>
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 5 Subject 1" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 5 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 5 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 5 Subject 2" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 5 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 5 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 5 Subject 3" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 5 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 5 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  <div className="col-sm-12 mt-2" >
+                  <Form.Label>Sem VI / Year</Form.Label>
+                 </div>
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 6 Subject 1" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 6 Subject 1 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 6 Subject 1 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 6 Subject 2" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 6 Subject 2 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 6 Subject 2 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  {/* <div className="col-sm-2 mt-2" >
+                 </div> */}
+
+                  <div className="col-sm-4">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 6 Subject 3" placeholder="Subject" />
+                      </Form.Group>
+                  </div>  
+                  <div className="col-sm-3">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 6 Subject 3 Max. Marks" placeholder="Max. Marks" />
+                      </Form.Group>
+                  </div> 
+                  <div className="col-sm-3    ">
+                      <Form.Group controlId="formBasicPassword">
+                          <Form.Control type="text" name="Sem 6 Subject 3 Marks obtained" placeholder="Marks obtained" />
+                      </Form.Group>
+                  </div> 
+
+                  <div className="col-sm-12 mt-2" >
+                  <Form.Label>Total Marks and Percentage</Form.Label>
+                 </div>
+
+                  <div className="col-sm-4  mt-2">
+                             <Form.Label>Total Marks:</Form.Label>
+                    </div>  
+                    <div className="col-sm-3">
+                        <Form.Group controlId="formBasicPassword">
+                            <Form.Control type="text" name="Total Max. Marks" placeholder="Total Max. Marks"required />
+                        </Form.Group>
+                    </div> 
+                    <div className="col-sm-3    ">
+                        <Form.Group controlId="formBasicPassword">
+                            <Form.Control type="text" name="Total Marks obtained" placeholder="Total Marks obtained" required />
+                        </Form.Group>
+                    </div> 
+
+
+                    <div className="col-sm-4 mt-2" >
+                              <Form.Label>Percentage:</Form.Label>
+                    </div>  
+                    <div className="col-sm-3">  </div> 
+                    <div className="col-sm-3    ">
+                        <Form.Group controlId="formBasicPassword">
+                            <Form.Control type="text" name="PU Percentage " placeholder="Percentage" required />
+                        </Form.Group>
+                    </div> 
+                  </div>
+
+
 
 
    <Heading className="ahead mt-5 mb-4" title="Documents Check List"/> 
 
-                <div className="row px-3 text">   
+                <div className="row px-3 ">   
                        
                        <div className="col-sm-12 pb-3">
                        <Form.Check custom type="checkbox"  id="1" name="SSLC Marks Card" label="SSLC Marks Card" />
@@ -416,7 +808,7 @@ const AWrap = styled.div`
 }
 
 .text{
-  // color: #6C757D;
+  color: #6C757D;
 }
 
 `
