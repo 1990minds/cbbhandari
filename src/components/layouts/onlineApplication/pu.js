@@ -52,7 +52,7 @@ export default class PU extends React.Component {
                 
                 <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="DOB" placeholder="Date of Birth" required />
+                            <Form.Control type="text" name="DOB" placeholder="Date of Birth (dd/mm/yyyy)" required />
                         </Form.Group>
                 </div>
 
@@ -94,35 +94,35 @@ export default class PU extends React.Component {
 
                 <div key='1' className="row px-4 text">  
                         <div className="col-sm-3 pb-3">
-                        <Form.Check custom type="radio"  id='cat1' name="Category" label="Category - 2A" />
+                        <Form.Check custom type="radio"  value="Category - 2A"  id='Category - 2A' name="Category" label="Category - 2A" />
                         </div>
                         
                         <div className="col-sm-3 pb-3">
-                        <Form.Check custom type="radio" id='cat2' name="Category" label="Category - 3A" />
+                        <Form.Check custom type="radio" value="Category - 3A" id='Category - 3A' name="Category" label="Category - 3A" />
                         </div>
 
                         <div className="col-sm-3 pb-3">
-                        <Form.Check custom type="radio" id='cat3' name="Category" label="GM - 4" />
+                        <Form.Check custom type="radio" value="GM - 4" id='GM -4' name="Category" label="GM - 4" />
                         </div>
 
                         <div className="col-sm-3 pb-3">
-                        <Form.Check custom type="radio" id='cat4' name="Category" label="SC" />
+                        <Form.Check custom type="radio" value="SC" id='SC' name="Category" label="SC" />
                         </div>
 
                         <div className="col-sm-3 ">
-                        <Form.Check custom type="radio" id='cat5' name="Category" label="Category - 2B" />
+                        <Form.Check custom type="radio" value="Category - 2B" id='Category - 2B' name="Category" label="Category - 2B" />
                         </div>
 
                         <div className="col-sm-3 ">
-                        <Form.Check custom type="radio" id='cat6' name="Category" label="Category - 3B" />
+                        <Form.Check custom type="radio" value="Category - 3B" id='Category - 3B' name="Category" label="Category - 3B" />
                         </div>
 
                         <div className="col-sm-3 ">
-                        <Form.Check custom type="radio" id='cat7' name="Category" label="CAT - 1" />
+                        <Form.Check custom type="radio" value="CAT - 1" id='CAT - 1' name="Category" label="CAT - 1" />
                         </div>
 
                         <div className="col-sm-3 ">
-                        <Form.Check custom type="radio" id='cat8' name="Category" label="ST" />
+                        <Form.Check custom type="radio" value="ST" id='ST' name="Category" label="ST" />
                         </div>        
                             
                 </div>
@@ -174,7 +174,7 @@ export default class PU extends React.Component {
 
                             <div className="col-sm-4">
                                 <Form.Group controlId="formBasicPassword">
-                                <Form.Control type="text" name="Phone No." placeholder="Phone No." required  />
+                                <Form.Control type="text" name="Phone No."  maxlength="10" pattern="[0-9]{10}" title="10 digits number" placeholder="Phone No." required  />
                                 </Form.Group>
                             </div>                 
                     </div>
@@ -197,19 +197,19 @@ export default class PU extends React.Component {
                         <div className="row">
                             <div className="col-sm-4">
                                 <Form.Group controlId="formBasicEmail">
-                                <Form.Control type="text"  name="Aadhar Number" placeholder="Aadhar Number" required  />
+                                <Form.Control type="text"  name="Aadhar Number" maxlength="12" pattern="[0-9]{12}" title="12 digits number" placeholder="Aadhar Number" required  />
                                 <Form.Text className="text-muted"> </Form.Text>
                                 </Form.Group>
                             </div>
 
                             <div className="col-sm-4">
                                 <Form.Group controlId="formBasicPassword">
-                                <Form.Control type="text" name="Student Mobile No." placeholder="Student Mobile No." required  />
+                                <Form.Control type="text" name="Student Mobile No." maxlength="10" pattern="[0-9]{10}" title="10 digits number" placeholder="Student Mobile No." required  />
                                 </Form.Group>
                             </div>
                             <div className="col-sm-4">
                                 <Form.Group controlId="formBasicPassword">
-                                <Form.Control type="text" name="Parent Mobile No." placeholder="Parent Mobile No." required  />
+                                <Form.Control type="text" name="Parent Mobile No." maxlength="10" pattern="[0-9]{10}" title="10 digits number" placeholder="Parent Mobile No." required  />
                                 </Form.Group>
                             </div>
 
@@ -229,11 +229,11 @@ export default class PU extends React.Component {
 
           <div key='2' className="row text">  
                     <div className="col-sm-2 mt-2">
-                    <Form.Check custom type="radio"  id='C1' name="Card" label="APL Card " />  
+                    <Form.Check custom type="radio" value="APL Card"  id='APL Card' name="Card" label="APL Card " />  
                     </div>
                     
                     <div className="col-sm-2 mt-2 ">
-                    <Form.Check custom type="radio" id='C2' name="Card" label="BPL Card " />  
+                    <Form.Check custom type="radio" value="BPL Card" id='BPL Card' name="Card" label="BPL Card " />  
                     </div>
 
                     <div className="col-sm-4 ">
@@ -293,7 +293,7 @@ export default class PU extends React.Component {
                     </div>                   
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="I Language Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="I Language Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
                     </div>
@@ -306,7 +306,7 @@ export default class PU extends React.Component {
                     </div>                     
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="II Language Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="II Language Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
                     </div>
@@ -319,7 +319,7 @@ export default class PU extends React.Component {
                     </div>                   
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="III Language Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="III Language Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -331,7 +331,7 @@ export default class PU extends React.Component {
                     </div>  
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Mathematics Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Mathematics Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -343,7 +343,7 @@ export default class PU extends React.Component {
                     </div>  
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Science Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Science Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -355,7 +355,7 @@ export default class PU extends React.Component {
                     </div>  
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Social Studies Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Social Studies Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
                     </div>
@@ -366,7 +366,7 @@ export default class PU extends React.Component {
                     </div>  
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Total Marks obtained" placeholder="Total Marks obtained"required />
+                            <Form.Control type="number" name="Total Marks obtained" placeholder="Total Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -392,19 +392,19 @@ export default class PU extends React.Component {
                                             <p className=" col-sm-2 ">SCIENCE : </p>
 
                                                 <div className="col-sm-2 pb-2 text">
-                                                <Form.Check custom type="radio"  id='sci1' name="science" label="PCMB" />
+                                                <Form.Check custom type="radio" value="PCMB" id='PCMB' name="science" label="PCMB" />
                                                 </div>
                                                 
                                                 <div className="col-sm-2 pb-2 text">
-                                                <Form.Check custom type="radio" id='sci2' name="science" label="PCMCS" />
+                                                <Form.Check custom type="radio" value="PCMCS" id='PCMCS' name="science" label="PCMCS" />
                                                 </div>
 
                                                 <div className="col-sm-2 pb-2 text">
-                                                <Form.Check custom type="radio" id='sci3' name="science" label="CET" />
+                                                <Form.Check custom type="radio" value="CET" id='CET' name="science" label="CET" />
                                                 </div>   
                                                 
                                                 <div className="col-sm-2 text">
-                                                <Form.Check custom type="radio" id='sci4' name="science" label="NEET" />
+                                                <Form.Check custom type="radio" value="NEET" id='NEET' name="science" label="NEET" />
                                                 </div> 
                                             
                                    </div>
@@ -414,15 +414,15 @@ export default class PU extends React.Component {
 
                                             <p className=" col-sm-2 ">COMINATIONS :</p>
                                             <div className="col-sm-2 pb-2 text">
-                                            <Form.Check custom type="radio"  id='com1' name="combination" label="ABECS" />
+                                            <Form.Check custom type="radio" value="ABECS" id='ABECS' name="combination" label="ABECS" />
                                             </div>
                                             
                                             <div className="col-sm-2 pb-2 text">
-                                            <Form.Check custom type="radio" id='com2' name="combination" label="ABCS" />
+                                            <Form.Check custom type="radio"  value="ABCS" id='ABCS' name="combination" label="ABCS" />
                                             </div>
 
                                             <div className="col-sm-2 pb-2 text">
-                                            <Form.Check custom type="radio" id='com3' name="combination" label="ABSM" />
+                                            <Form.Check custom type="radio" value="ABSM"  id='ABSM' name="combination" label="ABSM" />
                                             </div>   
                                                                                                             
                                         </div>
@@ -432,15 +432,15 @@ export default class PU extends React.Component {
                                 <p className=" col-sm-2">LANGUAGES :</p>
 
                                     <div className="col-sm-2 text pb-2">
-                                    <Form.Check custom type="radio"  id='lang1' name="language" label="Kannada" />
+                                    <Form.Check custom type="radio"  value="Kannada"  id='Kannada' name="language" label="Kannada" />
                                     </div>
                                     
                                     <div className="col-sm-2 text pb-2">
-                                    <Form.Check custom type="radio" id='lang2' name="language" label="Hindi" />
+                                    <Form.Check custom type="radio" value="Hindi"  id='Hindi' name="language" label="Hindi" />
                                     </div>
 
                                     <div className="col-sm-2 text pb-2">
-                                    <Form.Check custom type="radio" id='lang3' name="language" label="Sanskrit" />
+                                    <Form.Check custom type="radio" value="Sanskrit"  id='Sanskrit' name="language" label="Sanskrit" />
                                     </div>                
                       </div>        
 
@@ -512,7 +512,7 @@ export default class PU extends React.Component {
 
 
           {status === "SUCCESS" ? <div class="alert alert-success mt-5" role="alert">
-           Your Mail Sent!
+          Thank you we will contact you shortly.
                  </div> :<div  className="mt-5 mb-5" style={{textAlign:'center'}}> <Button variant="primary" disabled={loading? false : true} type="submit">
               {loading === true ? "Submit": "Sending..."}
           </Button> </div> }

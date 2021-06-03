@@ -53,7 +53,7 @@ export default class Bcom extends React.Component {
                
                <div className="col-sm-4">
                     <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="DOB" placeholder="Date of Birth" required />
+                        <Form.Control type="text" name="DOB" placeholder="Date of Birth (dd/mm/yyyy)" required />
                     </Form.Group>
                </div>
 
@@ -95,35 +95,35 @@ export default class Bcom extends React.Component {
 
             <div key='1' className="row px-4 text">  
                     <div className="col-sm-3 pb-3">
-                    <Form.Check custom type="radio"  id='cat1' name="Category" label="Category - 2A" />
+                    <Form.Check custom type="radio" value="Category-2A"  id='Category-2A' name="Category" label="Category - 2A" />
                     </div>
                     
                     <div className="col-sm-3 pb-3">
-                    <Form.Check custom type="radio" id='cat2' name="Category" label="Category - 3A" />
+                    <Form.Check custom type="radio" value="Category-3A" id='Category-3A' name="Category" label="Category - 3A" />
                     </div>
 
                     <div className="col-sm-3 pb-3">
-                    <Form.Check custom type="radio" id='cat3' name="Category" label="GM - 4" />
+                    <Form.Check custom type="radio" value="Category GM-4" id='Category GM-4' name="Category" label="GM - 4" />
                     </div>
 
                     <div className="col-sm-3 pb-3">
-                    <Form.Check custom type="radio" id='cat4' name="Category" label="SC" />
+                    <Form.Check custom type="radio" value="Category SC" id='Category SC' name="Category" label="SC" />
                     </div>
 
                     <div className="col-sm-3 ">
-                    <Form.Check custom type="radio" id='cat5' name="Category" label="Category - 2B" />
+                    <Form.Check custom type="radio" value="Category-2B" id='Category-2B' name="Category" label="Category - 2B" />
                     </div>
 
                     <div className="col-sm-3 ">
-                    <Form.Check custom type="radio" id='cat6' name="Category" label="Category - 3B" />
+                    <Form.Check custom type="radio" value="Category-3B" id='Category-3B' name="Category" label="Category - 3B" />
                     </div>
 
                     <div className="col-sm-3 ">
-                    <Form.Check custom type="radio" id='cat7' name="Category" label="CAT - 1" />
+                    <Form.Check custom type="radio" value="CAT-1" id='CAT-1' name="Category" label="CAT - 1" />
                     </div>
 
                     <div className="col-sm-3 ">
-                    <Form.Check custom type="radio" id='cat8' name="Category" label="ST" />
+                    <Form.Check custom type="radio" value="Category ST" id='Category ST' name="Category" label="ST" />
                     </div>        
                         
             </div>
@@ -174,7 +174,7 @@ export default class Bcom extends React.Component {
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="Phone No." placeholder="Phone No." required  />
+                        <Form.Control type="text" name="Phone No."  maxlength="10" pattern="[0-9]{10}" title="10 digits number" placeholder="Phone No." required  />
                         </Form.Group>
                     </div>                 
             </div>
@@ -197,19 +197,19 @@ export default class Bcom extends React.Component {
                 <div className="row">
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicEmail">
-                        <Form.Control type="text"  name="Aadhar Number" placeholder="Aadhar Number" required  />
+                        <Form.Control type="text"  name="Aadhar Number" maxlength="12" pattern="[0-9]{12}" title="12 digits number" placeholder="Aadhar Number" required  />
                         <Form.Text className="text-muted"> </Form.Text>
                         </Form.Group>
                     </div>
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="Student Mobile No." placeholder="Student Mobile No." required  />
+                        <Form.Control type="text" name="Student Mobile No."  maxlength="10" pattern="[0-9]{10}" title="10 digits number" placeholder="Student Mobile No." required  />
                         </Form.Group>
                     </div>
                     <div className="col-sm-4">
                          <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="Parent Mobile No." placeholder="Parent Mobile No." required  />
+                        <Form.Control type="text" name="Parent Mobile No."  maxlength="10" pattern="[0-9]{10}" title="10 digits number" placeholder="Parent Mobile No." required  />
                         </Form.Group>
                     </div>
          
@@ -228,7 +228,7 @@ export default class Bcom extends React.Component {
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                        <Form.Control type="text" name="Guardian Aadhar Number" placeholder="Aadhar Number" required />
+                        <Form.Control type="text" name="Guardian Aadhar Number" maxlength="12" pattern="[0-9]{12}" title="12 digits number" placeholder="Aadhar Number" required />
                     </Form.Group>
                   </div>
           </div> 
@@ -236,11 +236,11 @@ export default class Bcom extends React.Component {
 
           <div key='2' className="row text">  
                     <div className="col-sm-2 mt-2">
-                    <Form.Check custom type="radio"  id='C1' name="Card" label="APL Card " />  
+                    <Form.Check custom type="radio"  value="APL" id='APL' name="Card" label="APL Card " />  
                     </div>
                     
                     <div className="col-sm-2 mt-2 ">
-                    <Form.Check custom type="radio" id='C2' name="Card" label="BPL Card " />  
+                    <Form.Check custom type="radio" value="BPL" id='BPL' name="Card" label="BPL Card " />  
                     </div>
 
                     <div className="col-sm-4 ">
@@ -312,12 +312,12 @@ export default class Bcom extends React.Component {
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Language 1 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Language 1 Max. Marks" placeholder="Max. Marks"required />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Language 1 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Language 1 Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -329,12 +329,12 @@ export default class Bcom extends React.Component {
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Language 2 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Language 2 Max. Marks" placeholder="Max. Marks"required />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Language 2 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Language 2 Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -346,12 +346,12 @@ export default class Bcom extends React.Component {
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 1 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Elective 1 Max. Marks" placeholder="Max. Marks"required />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 1 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Elective 1 Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -363,12 +363,12 @@ export default class Bcom extends React.Component {
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 2 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Elective 2 Max. Marks" placeholder="Max. Marks"required />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 2 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Elective 2 Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -380,12 +380,12 @@ export default class Bcom extends React.Component {
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 3 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Elective 3 Max. Marks" placeholder="Max. Marks"required />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 3 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Elective 3 Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -397,12 +397,12 @@ export default class Bcom extends React.Component {
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 4 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Elective 4 Max. Marks" placeholder="Max. Marks"required />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 4 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Elective 4 Marks obtained" placeholder="Marks obtained"required />
                         </Form.Group>
                     </div> 
 
@@ -412,12 +412,12 @@ export default class Bcom extends React.Component {
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Total Max. Marks" placeholder="Total Max. Marks"required />
+                            <Form.Control type="number" name="Total Max. Marks" placeholder="Total Max. Marks"required />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Total Marks obtained" placeholder="Total Marks obtained" required />
+                            <Form.Control type="number" name="Total Marks obtained" placeholder="Total Marks obtained" required />
                         </Form.Group>
                     </div> 
 
@@ -428,7 +428,7 @@ export default class Bcom extends React.Component {
                     <div className="col-sm-3">  </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="PU Percentage " placeholder="Percentage" required />
+                            <Form.Control type="number" name="PU Percentage " placeholder="Percentage" required />
                         </Form.Group>
                     </div> 
             </div>
@@ -557,7 +557,7 @@ export default class Bcom extends React.Component {
 
 
           {status === "SUCCESS" ? <div class="alert alert-success mt-5" role="alert">
-           Your Mail Sent!
+           Thank you we will contact you shortly.
                  </div> :<div  className="mt-5 mb-5" style={{textAlign:'center'}}> <Button variant="primary" disabled={loading? false : true} type="submit">
               {loading === true ? "Submit": "Sending..."}
           </Button> </div> }
