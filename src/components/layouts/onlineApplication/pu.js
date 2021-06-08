@@ -253,7 +253,7 @@ export default class PU extends React.Component {
                              </Form.Group>
                             </div>     
 
-                            <p className="mb-3 col-sm-12 mt-2 ">Pariculars of previous Examination passed and number of attempts made: </p>
+                            <p className="mb-3 col-sm-12 mt-2 ">Particulars of previous Examination passed and number of attempts made: </p>
 
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
@@ -412,13 +412,13 @@ export default class PU extends React.Component {
 
                                         <div key='combination1' className="row pl-2">  
 
-                                            <p className=" col-sm-2 ">COMINATIONS :</p>
+                                            <p className=" col-sm-2 ">Combinations :</p>
                                             <div className="col-sm-2 pb-2 text">
                                             <Form.Check custom type="radio" value="ABECS" id='ABECS' name="combination" label="ABECS" />
                                             </div>
                                             
                                             <div className="col-sm-2 pb-2 text">
-                                            <Form.Check custom type="radio"  value="ABCS" id='ABCS' name="combination" label="ABCS" />
+                                            <Form.Check custom type="radio"  value="ABES" id='ABCS' name="combination" label="ABCS" />
                                             </div>
 
                                             <div className="col-sm-2 pb-2 text">
@@ -451,7 +451,7 @@ export default class PU extends React.Component {
     <Card style={{ width: '100%' }}>
                 <ListGroup variant="flush">
 
-                    <ListGroup.Item>Languages offered in the college - English, Kannada, Hindi, Sanskrit.</ListGroup.Item>
+                    <ListGroup.Item>Languages offered in the College - English, Kannada, Hindi, Sanskrit.</ListGroup.Item>
 
                     <ListGroup.Item>Certified Photocopy of Statement of Marks is required to be enclosed with the 
                         application at the time of submission.</ListGroup.Item>
@@ -478,16 +478,15 @@ export default class PU extends React.Component {
                     <ListGroup.Item>Parents / Guardians are requested to meet the teachers concerned to ascertain the attendance
                             and progress of their wards at least twice in the academic year.</ListGroup.Item>
 
-                    <ListGroup.Item>Any act of misconduct, indiscipline, vandalism or violence or damage cause to the college property,
+                    <ListGroup.Item>Any act of misconduct, indiscipline, vandalism or violence or damage cause to the College property,
                                 laboratory equipment, sports materials, library books, reference volumes, journals and periodicals,
                                 defacing of furniture and of walls, etc., shall be seriously viewed for both penalty and punishment and
                                 the decision of the Principal is final in this matter.</ListGroup.Item>
 
                     <ListGroup.Item>Participation in extra-curricular activities, N.C.C., N.S.S., etc., is voluntary and desirable.</ListGroup.Item>
 
-                    <ListGroup.Item>Morning Prayer is compulsory discipline or all students.</ListGroup.Item>
+                    <ListGroup.Item>Morning Prayer is compulsory discipline for all the students.</ListGroup.Item>
 
-                    <ListGroup.Item>Students should strictly adhere to the dress code specified below :</ListGroup.Item>
 
                     <ListGroup.Item>Students should strictly adhere to the dress code specified below:<br/>&nbsp;
                             1.Dress should not be tight – fitting and transparent.<br/>&nbsp;

@@ -24,8 +24,8 @@ the managing committee of the college.`
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item"> &nbsp;80% - 85%   ---  10% of Tuition Fees  </li>
-    <li class="list-group-item">&nbsp; > 85% - 90% ---  20% of Tuition Fees  </li>
-    <li class="list-group-item">&nbsp; > 90%            ---  30% of Tuition Fees  </li>
+    <li class="list-group-item">&nbsp; `{'>'}` 85% - 90% ---  20% of Tuition Fees  </li>
+    <li class="list-group-item">&nbsp; `{'>'}` 90%            ---  30% of Tuition Fees  </li>
     <li class="list-group-item">&nbsp;SC/ST/OBC Students can apply 
 for scholarships under SSP/NSP</li>
 
@@ -35,8 +35,8 @@ for scholarships under SSP/NSP</li>
 
 
 
-<h5>SC/ST, CAT 1-</h5>
-<Text text={sc}/>
+{/* <h5>SC/ST, CAT 1-</h5>
+<Text text={sc}/> */}
 
 <h5>Economically weaker section</h5>
 <Text text={eco}/>

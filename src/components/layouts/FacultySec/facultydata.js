@@ -423,19 +423,19 @@ const Managementdata = [
 
     
 //management
-{
-    id:25,
-    name:"Sri. Babulal Parekh",
-    imge:`${imgO1}`,
-    Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
-    status:"President",
-    commerce:false,
-    cs:false,
-    languages:false,
-    commerce:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS)",
-    officebearers:true,
-    adminstaff:false
-},
+// {
+//     id:25,
+//     name:"Sri. Babulal Parekh",
+//     imge:`${imgO1}`,
+//     Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
+//     status:"President",
+//     commerce:false,
+//     cs:false,
+//     languages:false,
+//     commerce:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS)",
+//     officebearers:true,
+//     adminstaff:false
+// },
 
 
 {
@@ -443,7 +443,7 @@ const Managementdata = [
     name:"Sri. Nagraj M",
     imge:`${imgO6}`,
     Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
-    status:"Vice President",
+    status:"Vice President (President-in-charge)",
     commerce:false,
     cs:false,
     languages:false,

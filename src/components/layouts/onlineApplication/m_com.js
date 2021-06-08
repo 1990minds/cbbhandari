@@ -723,7 +723,7 @@ export default class Mcom extends React.Component {
                 <ListGroup.Item>All candidates are required and expected to follow the code of conduct, rules and regulations in force from time to time.</ListGroup.Item>
                
                 <ListGroup.Item> Any act of academic dishonesty, misconduct, indiscipline, violence or damage caused to people / property of C.B.B.J.C. will be 
-                    construed as an offence against the college and student will be debarred from further studies at C.B.B.J.C.</ListGroup.Item>
+                    construed as an offence against the College and student will be debarred from further studies at C.B.B.J.C.</ListGroup.Item>
 
                 <ListGroup.Item>The candidate must fulfill all academic requirements notified by the authorities from time to time.</ListGroup.Item>
 

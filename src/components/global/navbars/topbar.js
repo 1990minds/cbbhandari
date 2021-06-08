@@ -35,7 +35,7 @@ class TopNavbar extends Component {
     <div className="col-sm-3">
     
  <marquee width="100%" className="p-0" direction="left" >
- <h5 className="text-danger mt-2 mb-0">Admissions for all Degree Courses are open for the year 2021 - 2022.</h5>
+ <h5 className="text-danger mt-2 mb-0">Admissions for all PUC/ Degree Courses are open for the year 2021 -2022</h5>
 </marquee>
 
     </div>
@@ -49,7 +49,7 @@ class TopNavbar extends Component {
       <Link to="/online_application">
         <button style={{backgroundColor:"#3F307F"}} className="mt-1 rounded text-white border-0 p-1 w-100">
              
-            APPLAY NOW
+            APPLY NOW
               
             </button>
         </Link>

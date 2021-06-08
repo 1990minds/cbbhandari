@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `CB Bhandari jain College `,
-    description: `Womens College Bangalore`,
+    description: `Best College in Bangalore`,
     author: `@gatsbyjs`,
   },
   plugins: [
