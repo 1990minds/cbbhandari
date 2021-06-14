@@ -418,7 +418,7 @@ export default class PU extends React.Component {
                                             </div>
                                             
                                             <div className="col-sm-2 pb-2 text">
-                                            <Form.Check custom type="radio"  value="ABES" id='ABCS' name="combination" label="ABCS" />
+                                            <Form.Check custom type="radio"  value="ABES" id='ABCS' name="combination" label="ABES" />
                                             </div>
 
                                             <div className="col-sm-2 pb-2 text">
