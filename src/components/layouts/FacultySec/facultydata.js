@@ -443,7 +443,7 @@ const Managementdata = [
     name:"Sri. Nagraj M",
     imge:`${imgO6}`,
     Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
-    status:"Vice President (President-in-charge)",
+    status:"President-in-Charge",
     commerce:false,
     cs:false,
     languages:false,

@@ -385,6 +385,7 @@ export default class PU extends React.Component {
                         </div>
 
 
+
                      <Heading className="ahead mt-5 mb-4" title="Combinations offered on admission"/> 
 
            
