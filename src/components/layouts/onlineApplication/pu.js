@@ -385,61 +385,63 @@ export default class PU extends React.Component {
                         </div>
 
 
-<Heading className="ahead mt-5 mb-4" title="Combinations offered on admission"/> 
 
            
-                             <div key='science1' className=" row pl-2">  
-                                            <p className=" col-sm-2 ">SCIENCE : </p>
+                             <div key='combination1' className=" row pl-1">  
+                                            <p className=" col-sm-2 ">Combinations : </p>
 
                                                 <div className="col-sm-2 pb-2 text">
-                                                <Form.Check custom type="radio" value="PCMB" id='PCMB' name="science" label="PCMB" />
+                                                <Form.Check custom type="radio" value="PCMB" id='PCMB' name="combination" label="PCMB" />
                                                 </div>
                                                 
                                                 <div className="col-sm-2 pb-2 text">
-                                                <Form.Check custom type="radio" value="PCMCS" id='PCMCS' name="science" label="PCMCS" />
+                                                <Form.Check custom type="radio" value="PCMCS" id='PCMCS' name="combination" label="PCMCS" />
+                                                </div>
+
+
+                                                <div className="col-sm-2 pb-2 text">
+                                                <Form.Check custom type="radio" value="ABECS" id='ABECS' name="combination" label="ABECS" />
+                                                </div>
+                                                
+                                                <div className="col-sm-2 pb-2 text">
+                                                <Form.Check custom type="radio"  value="ABES" id='ABES' name="combination" label="ABES" />
                                                 </div>
 
                                                 <div className="col-sm-2 pb-2 text">
-                                                <Form.Check custom type="radio" value="CET" id='CET' name="science" label="CET" />
+                                                <Form.Check custom type="radio" value="ABSM"  id='ABSM' name="combination" label="ABSM" />
                                                 </div>   
-                                                
-                                                <div className="col-sm-2 text">
-                                                <Form.Check custom type="radio" value="NEET" id='NEET' name="science" label="NEET" />
-                                                </div> 
-                                            
+
                                    </div>
 
 
-                                        <div key='combination1' className="row pl-2">  
+                                        <div className="row pl-1 ">  
 
-                                            <p className=" col-sm-2 ">Combinations :</p>
-                                            <div className="col-sm-2 pb-2 text">
-                                            <Form.Check custom type="radio" value="ABECS" id='ABECS' name="combination" label="ABECS" />
-                                            </div>
-                                            
-                                            <div className="col-sm-2 pb-2 text">
-                                            <Form.Check custom type="radio"  value="ABES" id='ABCS' name="combination" label="ABES" />
-                                            </div>
+                                            <p className=" col-sm-2 pr-0 mr-0">Coaching Classes :</p>
 
-                                            <div className="col-sm-2 pb-2 text">
-                                            <Form.Check custom type="radio" value="ABSM"  id='ABSM' name="combination" label="ABSM" />
-                                            </div>   
-                                                                                                            
+                                                        <div className="col-sm-2 text ">
+                                                        <Form.Check custom type="checkbox"  id="CET" name="CET" label="CET" />
+                                                        </div>
+
+                                                        <div className="col-sm-2 text">
+                                                        <Form.Check custom type="checkbox" id="NEET" name="NEET" label="NEET" />
+ 
+                                            </div>
+                                                               
                                         </div>
 
 
-                                <div key='language1' className="row pl-2 ">  
-                                <p className=" col-sm-2">LANGUAGES :</p>
+                                <div key='language1' className="row pl-1 ">  
+                                <p className=" col-sm-2 ">Languages :</p>
 
-                                    <div className="col-sm-2 text pb-2">
+                                    <div className="col-sm-2 text ">
                                     <Form.Check custom type="radio"  value="Kannada"  id='Kannada' name="language" label="Kannada" />
                                     </div>
                                     
-                                    <div className="col-sm-2 text pb-2">
+                                    <div className="col-sm-2 text ">
                                     <Form.Check custom type="radio" value="Hindi"  id='Hindi' name="language" label="Hindi" />
                                     </div>
 
-                                    <div className="col-sm-2 text pb-2">
+                                    <div className="col-sm-2 text">
                                     <Form.Check custom type="radio" value="Sanskrit"  id='Sanskrit' name="language" label="Sanskrit" />
                                     </div>                
                       </div>        
