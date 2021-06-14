@@ -385,11 +385,11 @@ export default class PU extends React.Component {
                         </div>
 
 
-<Heading className="ahead mt-5 mb-4" title="Combinations offered on admission"/> 
+                    <Heading className="ahead mt-5 mb-4" title="Combinations offered on admission"/> 
 
            
                              <div key='combination1' className=" row pl-1">  
-                                            <p className=" col-sm-2 ">Combinations: </p>
+                                            <p className=" col-sm-2 ">Combinations : </p>
 
                                                 <div className="col-sm-2 pb-2 text">
                                                 <Form.Check custom type="radio" value="PCMB" id='PCMB' name="combination" label="PCMB" />
@@ -417,7 +417,7 @@ export default class PU extends React.Component {
 
                                         <div className="row pl-1 ">  
 
-                                            <p className=" col-sm-2 pr-0 mr-0">Coaching Classes:</p>
+                                            <p className=" col-sm-2 pr-0 mr-0">Coaching Classes :</p>
 
                                                         <div className="col-sm-2 text ">
                                                         <Form.Check custom type="checkbox"  id="CET" name="CET" label="CET" />
@@ -432,7 +432,7 @@ export default class PU extends React.Component {
 
 
                                 <div key='language1' className="row pl-1 ">  
-                                <p className=" col-sm-2 ">Languages:</p>
+                                <p className=" col-sm-2 ">Languages :</p>
 
                                     <div className="col-sm-2 text ">
                                     <Form.Check custom type="radio"  value="Kannada"  id='Kannada' name="language" label="Kannada" />
