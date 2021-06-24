@@ -78,7 +78,7 @@ const ImageWrap = styled.div`
 
 img {
 
-    display:block;
+display:block;
 margin:0px auto;
 width:100%;
 }

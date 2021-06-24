@@ -14,7 +14,7 @@ export default function Index() {
       >
         <TabList>
           <Tab tabFor="one">PRE-UNIVERSITY </Tab>
-          <Tab tabFor="two">B.Com. / B.B.A.</Tab>
+          <Tab tabFor="two">Degree UG</Tab>
           <Tab tabFor="three">M.Com.</Tab>
         </TabList>
 

@@ -37,7 +37,38 @@ export default class Bcom extends React.Component {
                 Error !
                 </div>}
 
- <Heading className="ahead mt-3 mb-4" title="Personal Details"/> 
+<Heading className="ahead mt-3 mb-4" title="Application of admission"/> 
+
+            <div key='3' className="row  pb-2 text">  
+
+              <p className=" col-sm-2 pl-4 py-0 my-0 ">Course : </p>
+                        <div className="col-sm-2 mx-0 px-0 ">
+                        <Form.Check custom type="radio"  value="B.Com" id='B.Com' name="Application" label="B.Com" />  
+                        </div>
+                        
+                        <div className="col-sm-2 mx-0 px-0">
+                        <Form.Check custom type="radio" value="BBA" id='BBA' name="Application" label="BBA" />  
+                        </div>               
+            </div> 
+
+            <div key='4' className="row text">  
+            <p className=" col-sm-2 py-0 my-0 "> </p>
+
+                        <div className="col-sm-2 mx-0 px-0">
+                        <Form.Check custom type="radio"  value="CA" id='CA' name="Course" label="CA " />  
+                        </div>
+                        
+                        <div className="col-sm-2 mx-0 px-0">
+                        <Form.Check custom type="radio" value="CS" id='CS' name="Course" label="CS " />  
+                        </div>  
+
+                        <div className="col-sm-2 mx-0 px-0">
+                        <Form.Check custom type="radio" value="CMA" id='CMA' name="Course" label="CMA" />  
+                        </div>               
+            </div> 
+
+
+ <Heading className="ahead mt-5 mb-4" title="Personal Details"/> 
 
 
             <div className="row"> 
@@ -284,20 +315,20 @@ export default class Bcom extends React.Component {
                     <div className="col-sm-6">
                         <Form.Group controlId="formBasicPassword">
                                 <Form.Control type="text" name="Board of Examination in II-Pre-University or equivalent" 
-                                placeholder="Board of Examination"required />
+                                placeholder="Board of Examination" />
                         </Form.Group>
                     </div>
 
           
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Register No." placeholder="Register No."required />
+                            <Form.Control type="text" name="Register No." placeholder="Register No." />
                         </Form.Group>
                     </div>                                         
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
                                 <Form.Control type="text" name="Month / Year" 
-                                placeholder="Month / Year"required />
+                                placeholder="Month / Year" />
                         </Form.Group>
                     </div>
                 </div>
@@ -307,102 +338,102 @@ export default class Bcom extends React.Component {
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Language 1 Subject" placeholder="Language 1 Subject"required />
+                            <Form.Control type="text" name="Language 1 Subject" placeholder="Language 1 Subject" />
                         </Form.Group>
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Language 1 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Language 1 Max. Marks" placeholder="Max. Marks" />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Language 1 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Language 1 Marks obtained" placeholder="Marks obtained" />
                         </Form.Group>
                     </div> 
 
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Language 2 Subject" placeholder="Language 2 Subject"required />
+                            <Form.Control type="text" name="Language 2 Subject" placeholder="Language 2 Subject" />
                         </Form.Group>
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Language 2 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Language 2 Max. Marks" placeholder="Max. Marks" />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Language 2 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Language 2 Marks obtained" placeholder="Marks obtained" />
                         </Form.Group>
                     </div> 
 
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 1 Subject" placeholder="Elective 1 Subject"required />
+                            <Form.Control type="text" name="Elective 1 Subject" placeholder="Elective 1 Subject" />
                         </Form.Group>
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Elective 1 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Elective 1 Max. Marks" placeholder="Max. Marks" />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Elective 1 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Elective 1 Marks obtained" placeholder="Marks obtained" />
                         </Form.Group>
                     </div> 
 
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 2 Subject" placeholder="Elective 2 Subject"required />
+                            <Form.Control type="text" name="Elective 2 Subject" placeholder="Elective 2 Subject" />
                         </Form.Group>
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Elective 2 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Elective 2 Max. Marks" placeholder="Max. Marks" />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Elective 2 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Elective 2 Marks obtained" placeholder="Marks obtained" />
                         </Form.Group>
                     </div> 
 
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 3 Subject" placeholder="Elective 3 Subject"required />
+                            <Form.Control type="text" name="Elective 3 Subject" placeholder="Elective 3 Subject" />
                         </Form.Group>
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Elective 3 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Elective 3 Max. Marks" placeholder="Max. Marks" />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Elective 3 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Elective 3 Marks obtained" placeholder="Marks obtained" />
                         </Form.Group>
                     </div> 
 
 
                     <div className="col-sm-4">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="text" name="Elective 4 Subject" placeholder="Elective 4 Subject"required />
+                            <Form.Control type="text" name="Elective 4 Subject" placeholder="Elective 4 Subject" />
                         </Form.Group>
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Elective 4 Max. Marks" placeholder="Max. Marks"required />
+                            <Form.Control type="number" name="Elective 4 Max. Marks" placeholder="Max. Marks" />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Elective 4 Marks obtained" placeholder="Marks obtained"required />
+                            <Form.Control type="number" name="Elective 4 Marks obtained" placeholder="Marks obtained" />
                         </Form.Group>
                     </div> 
 
@@ -412,12 +443,12 @@ export default class Bcom extends React.Component {
                     </div>  
                     <div className="col-sm-3">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Total Max. Marks" placeholder="Total Max. Marks"required />
+                            <Form.Control type="number" name="Total Max. Marks" placeholder="Total Max. Marks" />
                         </Form.Group>
                     </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="Total Marks obtained" placeholder="Total Marks obtained" required />
+                            <Form.Control type="number" name="Total Marks obtained" placeholder="Total Marks obtained"  />
                         </Form.Group>
                     </div> 
 
@@ -428,7 +459,7 @@ export default class Bcom extends React.Component {
                     <div className="col-sm-3">  </div> 
                     <div className="col-sm-3    ">
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control type="number" name="PU Percentage " placeholder="Percentage" required />
+                            <Form.Control type="number" name="PU Percentage " placeholder="Percentage"  />
                         </Form.Group>
                     </div> 
             </div>
