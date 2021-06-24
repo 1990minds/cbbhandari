@@ -389,34 +389,34 @@ export default class PU extends React.Component {
                      <Heading className="ahead mt-5 mb-4" title="Combinations offered on admission"/> 
 
            
-                             <div key='combination1' className=" row pl-1">  
+                             <div key='combination1' className=" row pl-1  pb-3 ">  
                                             <p className=" col-sm-2 ">Combinations : </p>
 
-                                                <div className="col-sm-2 pb-2 text">
+                                                <div className="col-sm-2  text">
                                                 <Form.Check custom type="radio" value="PCMB" id='PCMB' name="combination" label="PCMB" />
                                                 </div>
                                                 
-                                                <div className="col-sm-2 pb-2 text">
+                                                <div className="col-sm-2  text">
                                                 <Form.Check custom type="radio" value="PCMCS" id='PCMCS' name="combination" label="PCMCS" />
                                                 </div>
 
 
-                                                <div className="col-sm-2 pb-2 text">
+                                                <div className="col-sm-2  text">
                                                 <Form.Check custom type="radio" value="ABECS" id='ABECS' name="combination" label="ABECS" />
                                                 </div>
                                                 
-                                                <div className="col-sm-2 pb-2 text">
+                                                <div className="col-sm-2  text">
                                                 <Form.Check custom type="radio"  value="ABES" id='ABES' name="combination" label="ABES" />
                                                 </div>
 
-                                                <div className="col-sm-2 pb-2 text">
+                                                <div className="col-sm-2  text">
                                                 <Form.Check custom type="radio" value="ABSM"  id='ABSM' name="combination" label="ABSM" />
                                                 </div>   
 
                                    </div>
 
 
-                                        <div className="row pl-1 ">  
+                                        <div className="row pl-1  pb-3 ">  
 
                                             <p className=" col-sm-2 pr-0 mr-0">Coaching Classes :</p>
 

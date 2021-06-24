@@ -2,7 +2,8 @@ import React from 'react';
 import {Heading, Images, Text} from '../../utils/heading'
 // import Line from '../../../images/hat copy1.svg'
 import styled from 'styled-components'
-import buildImage from '../../../images/layouts/home/bhandari-building.png'
+import buildImage from '../../../images/layouts/home/bhandari-building-new.png'
+
 import Vision from './visionSec'
 
 
@@ -12,7 +13,7 @@ const Intruduction = () => {
     let content = `C.B. Bhandari Jain College is a premier co-educational PU, Degree and 
     Post Graduate College with a difference. Established in June 2000 by Shree Mahaveer Jain Shikshan Sangh, this Institution aims at imparting quality, value-based education to youth . Located on K.R. Road, one of the arterial landmarks of Bangalore, the College provides a platform for for young boys and girls with wings of intellect and talent alike to take off in pursuit of careers in Science, Commerce and Management .
     To ensure proficiency in their  core-skills, the college offers compulsory value-added courses
-    in Advanced Accounting Techniques, Advanced Computing Skills, Management and Leadership courses together with soft skills such as Team building, leadership & Pre-Placement preparation. As testimony to its thrust on Quality Education, five  of its students have bagged the 8th and 9th rank in 2011, 7th rank in 2013,  7th Rank in 2015 and 10th Rank in 2017, in Bangalore University B.Com., Examinations.
+    in Advanced Accounting Techniques, Advanced Computing Skills, Management and Leadership courses together with soft skills such as Team building, leadership & Pre-Placement preparation. As testimony to its thrust on Quality Education, five  of its students have bagged the 8th and 9th rank in 2011, 7th rank in 2013,  7th Rank in 2015, 10th Rank in 2017 and 3rd Rank in 2020, in Bangalore University B.Com., Examinations.
     In its 19th year of service towards the empowerment of youth, C.B Bhandari Jain College hopes to march ahead introducing more and more educational avenues for its students.
      `;
     return (
