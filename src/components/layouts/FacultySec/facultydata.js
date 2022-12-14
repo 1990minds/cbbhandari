@@ -39,14 +39,14 @@ import imgL1 from '../../../images/facultyimag/non-teaching/anuradha.jpg'
 import imgL2 from '../../../images/facultyimag/non-teaching/shobha.jpg'
 
 import imgO1 from '../../../images/facultyimag/office-barears/Babulal Parekh.jpg'
-import imgO2 from '../../../images/facultyimag/office-barears/Champalal Bhandari.jpg'
-import imgO3 from '../../../images/facultyimag/office-barears/G. Ashok Bhandari.jpg'
-import imgO4 from '../../../images/facultyimag/office-barears/K. Sampathraj Jain.jpg'
-import imgO5 from '../../../images/facultyimag/office-barears/N. Mangilal Bohra.jpg'
-import imgO6 from '../../../images/facultyimag/office-barears/Nagraj M.jpg'
-import imgO7 from '../../../images/facultyimag/office-barears/Tejraj Nagori.jpg'
+import imgO2 from '../../../images/facultyimag/office-barears/sri. vimalchand khanter.png'
+import imgO3 from '../../../images/facultyimag/office-barears/Dr. jayantilal.png'
+import imgO4 from '../../../images/facultyimag/office-barears/sri. G. kantilal jain.png'
+import imgO5 from '../../../images/facultyimag/office-barears/sri. champalal dhantewadia.png'
+import imgO6 from '../../../images/facultyimag/office-barears/sri. champalal bhandari.png'
+import imgO7 from '../../../images/facultyimag/office-barears/sri. g. hemraj.png'
 import imgO8 from '../../../images/facultyimag/office-barears/Prakash Chand Khincha.jpg'
-
+import imgO03 from '../../../images/facultyimag/office-barears/sri. G Ashok Bhandari.png'
 
 
 const facultydata = [
@@ -440,10 +440,10 @@ const Managementdata = [
 
 {
     id:26,
-    name:"Sri. Nagraj M",
+    name:"Sri. Champalal Bhandari",
     imge:`${imgO6}`,
     Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
-    status:"President-in-Charge",
+    status:"President",
     commerce:false,
     cs:false,
     languages:false,
@@ -455,7 +455,7 @@ const Managementdata = [
 
 {
     id:27,
-    name:"Sri. Tejraj Nagori",
+    name:"Sri. G. Hemraj",
     imge:`${imgO7}`,
     Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
     status:"Vice President",
@@ -470,10 +470,10 @@ const Managementdata = [
 
 {
     id:28,
-    name:"Sri. Champalal Bhandari",
+    name:"Sri. Vimalchand Khanter",
     imge:`${imgO2}`,
     Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS)",
-    status:"Hon. Secretary",
+    status:"Vice President",
     commerce:false,
     cs:false,
     languages:false,
@@ -484,10 +484,10 @@ const Managementdata = [
 
 {
     id:29,
-    name:"Sri. K. Sampathraj Jain",
+    name:"Sri. G. Kantilal Jain",
     imge:`${imgO4}`,
     Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
-    status:"Joint Secretary",
+    status:"Hon. Secretary",
     commerce:false,
     cs:false,
     languages:false,
@@ -497,7 +497,7 @@ const Managementdata = [
 },
 {
     id:30,
-    name:"Sri. N. Mangilal Bohra ",
+    name:"Sri. Champalal Dhantewadia ",
     imge:`${imgO5}`,
     Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
     status:"Joint Secretary",
@@ -510,8 +510,23 @@ const Managementdata = [
 },
 {
     id:31,
-    name:"Sri. G. Ashok Bhandari",
+    name:"Dr. Jayantilal",
     imge:`${imgO3}`,
+    Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
+    status:"Joint Secretary",
+    commerce:false,
+    cs:false,
+    languages:false,
+    commerce:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS)",
+    officebearers:true,
+    adminstaff:false
+},
+
+
+{
+    id:31,
+    name:"Sri. G. Ashok Bhandari",
+    imge:`${imgO03}`,
     Dept:"Office Bearers of Shree Mahaveer Jain Shikshan Sangh (SMJSS) ",
     status:"Treasurer",
     commerce:false,
@@ -521,6 +536,14 @@ const Managementdata = [
     officebearers:true,
     adminstaff:false
 },
+
+
+
+
+
+
+
+
 {
     id:32,
     name:"Mr. Shekar",

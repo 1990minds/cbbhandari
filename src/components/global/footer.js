@@ -35,7 +35,7 @@ const Footer = () => {
             
             <div style={{transform:"translateY(-6px)", backgroundColor:'#384e5a'}}  className="  py-3">
               <div  className="container d-flex justify-content-around align-items-center">
-<h3 className="text-white ">Admissions for all PUC/ Degree Courses are open for the year 2021 -2022</h3>
+<h3 className="text-white ">Admissions for all PUC/ Degree Courses are open for the year 2022 -2023</h3>
 <Link to="/online_application">
         <button style={{fontWeight:"bold", color:"#384E5A"}}  className="mt-1  rounded  border-0 px-3 p-1">
              
