@@ -35,7 +35,7 @@ class TopNavbar extends Component {
     <div className="col-sm-3">
     
  <marquee width="100%" className="p-0" direction="left" >
- <h5 className="text-danger mt-2 mb-0">Admissions for all PUC/ Degree Courses are open for the year 2022 -2023</h5>
+ <h5 className="text-danger mt-2 mb-0">Admissions Open for M.Com 2022-2023</h5>
 </marquee>
 
     </div>
