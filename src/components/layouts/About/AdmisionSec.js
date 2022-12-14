@@ -23,7 +23,7 @@ const AdmisionSec = () => {
 
 <div className="card">
 <div className="card-header">
-<b>Admissions for all Degree Courses are open for the year 2021 - 2022.</b><img src={newblinkimg} width="70px" alt="new"/>
+<b>Admissions for all Degree Courses are open for the year 2022 - 2023.</b><img src={newblinkimg} width="70px" alt="new"/>
 </div>
 <div className="card-body">
  <h5>Mr.Girish</h5>

@@ -25,6 +25,7 @@ import SSS from '../../../images/pdf/iqac/Student Satisfaction Survey (SSS) 2018
 import Nacc from '../../../images/pdf/iqac/NAAC CER.pdf'
 import Aqar19 from '../../../images/pdf/iqac/AQAR 2018-19.pdf'
 import Aqar20 from '../../../images/pdf/iqac/AQAR 2019-20 Final.pdf'
+import Aqar21 from '../../../images/pdf/iqac/AQAR 2020-2021.pdf'
 
 import Code_of_Conduct from '../../../images/pdf/iqac/Code  of Conduct.pdf'
 import Institutional_Distinctiveness from '../../../images/pdf/iqac/Institutional Distinctiveness.pdf'
@@ -130,12 +131,25 @@ class componentName extends Component {
 <FaFilePdf id="pdf"/>
 <div class="card-body">
 <h5 class="card-title text-center">AQAR 2020-21</h5>
+<a href={Aqar21} target="new_tab" id="pdfanchr" class="btn btn-primary " >Download</a>
+</div>
+</div>
+</div> 
+
+
+
+ <div className="col-md-3 col-sm-4 my-2">
+
+<div class="card" style={{width: "100%"}}>
+<FaFilePdf id="pdf"/>
+<div class="card-body">
+<h5 class="card-title text-center">AQAR 2019-20</h5>
 <a href={Aqar20} target="new_tab" id="pdfanchr" class="btn btn-primary " >Download</a>
 </div>
 </div>
 </div> 
 
-                   <div className="col-md-3 col-sm-4 my-2">
+ <div className="col-md-3 col-sm-4 my-2">
 
 <div class="card" style={{width: "100%"}}>
 <FaFilePdf id="pdf"/>
